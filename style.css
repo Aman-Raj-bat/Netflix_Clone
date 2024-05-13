@@ -306,3 +306,17 @@ ul {
     position: relative;
     top: 17px;
 }
+
+@media screen and (max-width: 1300px) {
+    .down-buttons{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+        z-index: 10;
+        position: relative;
+        right: 28vw;
+    }
+}
